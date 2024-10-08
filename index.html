@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shopping Cart</title>
+    <style>
+      body {
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="flex bg-stone-400 relative">
+      <img
+        class="w-[150px] h-[150px]"
+        src="5842a0dca6515b1e0ad75af5.png"
+        alt=""
+      />
+      <h1 class="text-4xl text-white m-16 absolute right-1/2">Saint.Laurent</h1>
+    </nav>
+    <main class="flex justify-center align-middle m-5 p-2 gap-4">
+      <div class="grid grid-cols-3 gap-8 w-[70%] store">
+        <div
+          class="border border-black bg-slate-100 text-black font-semibold item-card rounded-md relative"
+        >
+          <img
+            src="https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw355e6003/Couture%20Mini%20Clutch%20Shade%20Extensions/3614274195675/3614274195675.jpg?sw=1080&sh=1080&sm=cut&sfrm=jpg&q=85"
+            alt=""
+          />
+          <h3 class="text-slate-800 font-semibold item-name">
+            EYESHADOW PALETTE
+          </h3>
+          
+          <p><span class="font-bold item-price"> 80 </span> $</p>
+          <button
+          class="bg-black text-white py-0.5 px-3 rounded-full minus-quantity-button absolute right-3 bottom-2"
+        >
+          -
+        </button>
+        
+          <button
+            class="absolute shop-now w-[90px] h-[30px] rounded-md bg-slate-200 border border-black cursor-pointer top-2 left-2 text-black"
+          >
+            Shop now
+          </button>
+        </div>
+        <div
+          class="border border-black bg-slate-100 text-black font-semibold item-card rounded-md relative"
+        >
+          <img
+            src="https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw5b9798fb/LoveShine/3614274132694.jpg?sw=1080&sh=1080&sm=cut&sfrm=jpg&q=85"
+            alt=""
+          />
+          <h3 class="text-slate-800 font-semibold item-name">LIP OIL STICK</h3>
+          <p><span class="font-bold item-price"> 50 </span>$</p>
+          <button
+          class="bg-black text-white py-0.5 px-3 rounded-full minus-quantity-button absolute right-3 bottom-2"
+        >
+          -
+        </button>
+          <button
+            class="absolute shop-now w-[90px] h-[30px] rounded-md bg-slate-200 border border-black cursor-pointer top-2 left-2 text-black"
+          >
+            Shop now
+          </button>
+        </div>
+        <div
+          class="border border-black bg-slate-100 text-black font-semibold item-card rounded-md relative"
+        >
+          <img
+            src="https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwa695f107/Lash%20Clash%20Waterproof/3614273993760.jpg?sw=1080&sh=1080&sm=cut&sfrm=jpeg&q=85"
+            alt=""
+          />
+          <h3 class="text-slate-800 font-semibold item-name">
+            WATERPROOF MASCARA
+          </h3>
+          <p><span class="font-bold item-price"> 78 </span>$</p>
+          <button
+          class="bg-black text-white py-0.5 px-3 rounded-full minus-quantity-button absolute right-3 bottom-2"
+        >
+          -
+        </button>
+          <button
+            class="absolute shop-now w-[90px] h-[30px] rounded-md bg-slate-200 border border-black cursor-pointer top-2 left-2 text-black"
+          >
+            Shop now
+          </button>
+        </div>
+        <div
+          class="border border-black bg-slate-100 text-black font-semibold item-card rounded-md relative"
+        >
+          <img
+            src="https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw59ff9f96/RPC%20Reno/RESIZED/3614273945165.jpg?sw=1080&sh=1080&sm=cut&sfrm=jpg&q=85"
+            alt=""
+          />
+          <h3 class="text-slate-800 font-semibold item-name">SATIN LIPSTICK</h3>
+          <p><span class="font-bold item-price"> 52 </span>$</p>
+          <button
+          class="bg-black text-white py-0.5 px-3 rounded-full minus-quantity-button absolute right-3 bottom-2"
+        >
+          -
+        </button>
+          <button
+            class="absolute shop-now w-[90px] h-[30px] rounded-md bg-slate-200 border border-black cursor-pointer top-2 left-2 text-black"
+          >
+            Shop now
+          </button>
+        </div>
+        <div
+          class="border border-black bg-slate-100 text-black font-semibold item-card rounded-md relative"
+        >
+          <img
+            src="https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw6df8a345/images/2017_Products/3614271641922.jpg?sw=1080&sh=1080&sm=cut&sfrm=jpg&q=85"
+            alt=""
+          />
+          <h3 class="text-slate-800 font-semibold item-name">
+            Cream Lip Stain
+          </h3>
+          
+            <p><span class="font-bold item-price"> 45 </span>$</p>
+            <button
+              class="bg-black text-white py-0.5 px-3 rounded-full minus-quantity-button absolute right-3 bottom-2"
+            >
+              -
+            </button>
+          
+          <button
+            class="absolute shop-now w-[90px] h-[30px] rounded-md bg-slate-200 border border-black cursor-pointer top-2 left-2 text-black"
+          >
+            Shop now
+          </button>
+        </div>
+        <div
+          class="border border-black bg-slate-100 text-black font-semibold item-card rounded-md relative"
+        >
+          <img
+            src="https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwa76b8f21/All%20Hours/LW1%20LIGHT%20WARM/3614273712453.jpg?sw=1080&sh=1080&sm=cut&sfrm=jpg&q=85"
+            alt=""
+          />
+          <h3 class="text-slate-800 font-semibold item-name">
+            ALL HOURS FOUNDATION
+          </h3>
+          <p><span class="font-bold item-price"> 65</span>$</p>
+          <button
+          class="bg-black text-white py-0.5 px-3 rounded-full minus-quantity-button absolute right-3 bottom-2"
+        >
+          -
+        </button>
+          <button
+            class="absolute shop-now w-[90px] h-[30px] rounded-md bg-slate-200 border border-black cursor-pointer top-2 left-2 text-black"
+          >
+            Shop now
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="cart w-[30%] border rounded-md border-black flex bg-slate-100 flex-col relative"
+      >
+        <h2
+          class="text-center m-6 font-bold from-neutral-600 text-2xl underline"
+        >
+          Shopping Cart
+        </h2>
+        <div>
+          <ul id="cart-items" class="m-4 font-thin text-center"></ul>
+        </div>
+        <div class="total">
+          <p class="absolute bottom-0 left-16 text-xl m-6 font-semibold">
+            Total: <span id="total-price">0.00 </span> $
+          </p>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
